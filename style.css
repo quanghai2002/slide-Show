@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.hiden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.wrap {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  margin: 50px auto;
+  display: flex;
+}
+.wrap .img {
+  position: relative;
+  min-width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.wrap .icon {
+  font-size: 3rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+.wrap .icon i {
+  margin: 0 10px;
+  padding: 6px 10px;
+  color: rgb(15, 0, 16);
+  background-color: rgba(236, 242, 247, 0.726);
+}
+.wrap .icon i:hover {
+  cursor: pointer;
+  background-color: rgba(12, 230, 44, 0.726);
+}
+.wrap .dots-wrap {
+  position: absolute;
+  width: 100%;
+  font-size: 1.6rem;
+  bottom: 8px;
+  color: rgb(177, 240, 150);
+  text-align: center;
+}
+.wrap .dots-wrap i {
+  cursor: pointer;
+  margin-right: 9px;
+  text-shadow: 0 0 3px rgba(236, 7, 7, 0.918);
+}
+
+.dots.active {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
